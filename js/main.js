@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('.projects.content').hide();
   $('.projects.item').hover(function() {
-    $(this).children().show();
+    $(this).children().fadeIn();
   }, function() {
-    $(this).children().hide();
+    $(this).children().fadeOut();
   })
 
   $(document).on('click', '.clickable', function(e){
