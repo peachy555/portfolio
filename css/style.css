@@ -113,20 +113,21 @@ a {
 }
 
 .projects.large {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+}
+.projects.large.content {
+  height: 240px;
 }
 
 .projects.item {
   display: inline-block;
   border: 5px solid green;
   background-size: cover;
-  margin: 10px;
 }
 
 .projects.content {
   z-index: 10;
-  height: 190px;
   display: table-cell;
   vertical-align: middle;
   font-weight: bold;
@@ -139,7 +140,7 @@ a {
 
 #highlight-project {
   background-image: url('../images/highlight.png');
-  background-position: -22px 8px;
+  background-position: -38px 8px;
 }
 
 #peachiego-project {
@@ -148,12 +149,12 @@ a {
 
 #wikitag-project {
   background-image: url('../images/wiki-tag.png');
-  background-position: -5px 0;
+  background-position: -20px 0;
 }
 
 #tictactoe-project {
   background-image: url('../images/tictactoe.png');
-  background-position: -22px 0;
+  background-position: -32px 0;
 }
 
 #burning-airlines-project {
