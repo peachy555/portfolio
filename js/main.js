@@ -11,15 +11,11 @@ $(document).ready(function(){
     window.open(link, '_blank');
   });
 
-  // $('html, body').animate({
-  //   'scrollTop': $('#anchorName2').offset().top
-  // }, 2000);
-
-//   $(document).on('click', 'a', function(event){
-//     event.preventDefault();
-//
-//     $('html, body').animate({
-//         scrollTop: $( $.attr(this, 'href') ).offset().top
-//     }, 500);
-// });
+  $(document).on('click', 'a.menu.item', function(event){
+    event.preventDefault();
+    var distance = $( $.attr(this, 'href') ).offset().top;
+    $('html, body').animate({
+        scrollTop: distance
+    }, distance/2.5);
+});
 })
