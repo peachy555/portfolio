@@ -1,5 +1,5 @@
 # portfolio
 
-Link: https://peach-tuntiwong.net
+Link: https://peachy555.github.io/portfolio/
 
 This is my personal portfolio, enjoy!
